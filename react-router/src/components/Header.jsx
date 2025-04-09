@@ -1,7 +1,14 @@
-
+import { useNavigate } from "react-router-dom"
 
 function Header() {
-    <h1>Header</h1>
+  const navigate = useNavigate();
+
+  return (
+    <div>
+        <button onClick={navigate('/LoginView')}>Login</button>
+        <button onClick={navigate('/RegisterView')}>Register</button>
+    </div>
+  )
 }
 
 export default Header

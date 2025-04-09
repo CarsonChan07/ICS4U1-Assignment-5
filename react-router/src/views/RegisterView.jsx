@@ -1,9 +1,12 @@
 
 
 function RegisterView() {
-    return (
-        <h1>Register</h1>
-    )
+  
+  return (
+    <div>
+
+    </div>
+  )
 }
 
 export default RegisterView

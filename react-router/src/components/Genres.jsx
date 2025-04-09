@@ -1,7 +1,13 @@
-
+import { useNavigate } from "react-router-dom"
 
 function Genres() {
-    <h1>Genres</h1>
+  const navigate = useNavigate();
+
+  return (
+    <div>
+
+    </div>
+  )
 }
 
 export default Genres

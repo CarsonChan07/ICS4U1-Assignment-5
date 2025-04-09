@@ -1,7 +1,13 @@
-
+import { useNavigate } from "react-router-dom"
 
 function Feature() {
-    <h1>Feature</h1>
+  const navigate = useNavigate();
+
+  return (
+    <div>
+
+    </div>
+  )
 }
 
 export default Feature

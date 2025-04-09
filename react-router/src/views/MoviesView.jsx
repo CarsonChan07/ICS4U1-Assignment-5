@@ -1,9 +1,12 @@
 
 
 function MoviesView() {
-    return (
-        <h1>Movies</h1>
-    )  
+
+  return (
+    <div>
+
+    </div>
+  )
 }
 
 export default MoviesView

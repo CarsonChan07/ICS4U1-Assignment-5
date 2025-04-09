@@ -1,7 +1,13 @@
-
+import { useNavigate } from "react-router-dom"
 
 function Hero() {
-    <h1>Hero</h1>
+  const navigate = useNavigate();
+
+  return (
+    <div>
+
+    </div>
+  )
 }
 
 export default Hero
