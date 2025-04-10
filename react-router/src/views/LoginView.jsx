@@ -1,12 +1,12 @@
+import { Link } from "react-router-dom"
 
-
-function HomeView() {
+function LoginView() {
   
   return (
     <div>
-
+      
     </div>
   )
 }
 
-export default HomeView
+export default LoginView

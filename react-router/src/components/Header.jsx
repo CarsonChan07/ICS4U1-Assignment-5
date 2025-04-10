@@ -5,8 +5,7 @@ function Header() {
 
   return (
     <div>
-        <button onClick={navigate('/LoginView')}>Login</button>
-        <button onClick={navigate('/RegisterView')}>Register</button>
+
     </div>
   )
 }

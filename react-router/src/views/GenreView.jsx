@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-function MovieView() {
+function GenreView() {
   
   return (
     <div>
@@ -9,4 +9,4 @@ function MovieView() {
   )
 }
 
-export default MovieView
+export default GenreView
