@@ -5,7 +5,8 @@ function Hero() {
 
   return (
     <div>
-
+        <h1>Netflix, but better.</h1>
+        <p>Unlimited Movies, TV Shows, and More.</p>
     </div>
   )
 }

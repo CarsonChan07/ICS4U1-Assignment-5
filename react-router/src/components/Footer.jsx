@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <div>
-
+        <p>&copy; 2025 Netflix 2. All rights reserved.</p>
     </div>
   )
 }

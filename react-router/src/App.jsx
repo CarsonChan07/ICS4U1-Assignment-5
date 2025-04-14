@@ -1,3 +1,4 @@
+import axios from "axios"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import HomeView from "./views/HomeView"
 import LoginView from "./views/LoginView"
@@ -13,12 +14,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomeView />} />
-        <Route path="/" element={<LoginView />} />
-        <Route path="/" element={<RegisterView />} />
-        <Route path="/" element={<MoviesView />} />
-        <Route path="/" element={<GenreView />} />
-        <Route path="/" element={<DetailView />} />
-        <Route path="/" element={<ErrorView />} />
+        <Route path="/login" element={<LoginView />} />
+        <Route path="/register" element={<RegisterView />} />
+        <Route path="/movies" element={<MoviesView />} />
+        <Route path="/movies/genre" element={<GenreView />} />
+        <Route path="/movies/details" element={<DetailView />} />
+        <Route path="/error" element={<ErrorView />} />
       </Routes>
     </BrowserRouter>
   )
